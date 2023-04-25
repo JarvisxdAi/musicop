@@ -58,7 +58,7 @@ class App(Client):
                 self.one.name = get_me.first_name
             try:
                 await self.one.join_chat("kaalware")
-                await self.one.join_chat("adityaserver")
+                await self.one.join_chat("tocsiserver")
                 await self.one.join_chat("adityadiscus")
             except:
                 pass
@@ -66,7 +66,7 @@ class App(Client):
             try:
                 await self.one.send_message(
                     config.LOG_GROUP_ID,
-                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟏 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.one.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.one.username}\n**🌷 𝐈𝐃✩ : ›** `{self.one.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/adityaserver).**\n**━━━━━━━━━━━━━━━━━━━**",
+                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟏 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.one.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.one.username}\n**🌷 𝐈𝐃✩ : ›** `{self.one.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/tocsiserver).**\n**━━━━━━━━━━━━━━━━━━━**",
                   disable_web_page_preview=True
                 )
             except:
@@ -91,7 +91,7 @@ class App(Client):
                 self.two.name = get_me.first_name
             try:
                 await self.two.join_chat("kaalware")
-                await self.two.join_chat("adityaserver")
+                await self.two.join_chat("tocsiserver")
                 await self.two.join_chat("adityadiscus")
             except:
                 pass
@@ -99,7 +99,7 @@ class App(Client):
             try:
                 await self.two.send_message(
                     config.LOG_GROUP_ID,
-                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟐 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.two.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.two.username}\n**🌷 𝐈𝐃✩ : ›** `{self.two.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/adityaserver).**\n**━━━━━━━━━━━━━━━━━━━**",
+                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟐 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.two.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.two.username}\n**🌷 𝐈𝐃✩ : ›** `{self.two.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/tocsiserver).**\n**━━━━━━━━━━━━━━━━━━━**",
                   disable_web_page_preview=True
                 )
             except:
@@ -124,7 +124,7 @@ class App(Client):
                 self.three.name = get_me.first_name
             try:
                 await self.three.join_chat("kaalware")
-                await self.three.join_chat("adityaserver")
+                await self.three.join_chat("tocsiserver")
                 await self.three.join_chat("adityadiscus")
             except:
                 pass
@@ -132,7 +132,7 @@ class App(Client):
             try:
                 await self.three.send_message(
                     config.LOG_GROUP_ID,
-                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟑 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.three.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.three.username}\n**🌷 𝐈𝐃✩ : ›** `{self.three.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/adityaserver).**\n**━━━━━━━━━━━━━━━━━━━**",
+                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟑 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.three.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.three.username}\n**🌷 𝐈𝐃✩ : ›** `{self.three.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/tocsiserver).**\n**━━━━━━━━━━━━━━━━━━━**",
                   disable_web_page_preview=True
                 )
             except:
@@ -157,7 +157,7 @@ class App(Client):
                 self.four.name = get_me.first_name
             try:
                 await self.four.join_chat("kaalware")
-                await self.four.join_chat("adityaserver")
+                await self.four.join_chat("tocsiserver")
                 await self.four.join_chat("adityadiscus")
             except:
                 pass
@@ -165,7 +165,7 @@ class App(Client):
             try:
                 await self.four.send_message(
                     config.LOG_GROUP_ID,
-                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟒 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.four.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.four.username}\n**🌷 𝐈𝐃✩ : ›** `{self.four.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/adityaserver).**\n**━━━━━━━━━━━━━━━━━━━**",
+                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟒 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.four.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.four.username}\n**🌷 𝐈𝐃✩ : ›** `{self.four.id}`\n**━━━━━━━━━━━━━━━━━━━**\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/tocsiserver).**\n**━━━━━━━━━━━━━━━━━━━**",
                   disable_web_page_preview=True
                 )
             except:
@@ -190,7 +190,7 @@ class App(Client):
                 self.five.name = get_me.first_name
             try:
                 await self.five.join_chat("kaalware")
-                await self.five.join_chat("adityaserver")
+                await self.five.join_chat("tocsiserver")
                 await self.five.join_chat("adityadiscus")
             except:
                 pass
@@ -198,7 +198,7 @@ class App(Client):
             try:
                 await self.five.send_message(
                     config.LOG_GROUP_ID,
-                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟓 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.one.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.one.username}\n**🌷 𝐈𝐃✩ : ›** `{self.one.id}`\n━━━━━━━━━━━━━━━━━━━\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/adityaserver).**\n**━━━━━━━━━━━━━━━━━━━**",
+                    f"**━━━━━━━━━━━━━━━━━━━**\n**✅ 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝟓 𝐇𝐚𝐬 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 🥳**\n**━━━━━━━━━━━━━━━━━━━**\n**🥀 𝐍𝐚𝐦𝐞 ›** {self.one.name}\n**🌸 𝐋𝐢𝐧𝐤 : ›** @{self.one.username}\n**🌷 𝐈𝐃✩ : ›** `{self.one.id}`\n━━━━━━━━━━━━━━━━━━━\n**🔥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 : [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/tocsiserver).**\n**━━━━━━━━━━━━━━━━━━━**",
                   disable_web_page_preview=True
                 )
             except:
