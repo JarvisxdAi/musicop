@@ -57,9 +57,9 @@ class App(Client):
             else:
                 self.one.name = get_me.first_name
             try:
-                await self.one.join_chat("kaalware")
+                await self.one.join_chat("TOCSISERVER")
                 await self.one.join_chat("tocsiserver")
-                await self.one.join_chat("adityadiscus")
+                await self.one.join_chat("TOCSISERVER")
             except:
                 pass
             assistants.append(1)
@@ -90,9 +90,9 @@ class App(Client):
             else:
                 self.two.name = get_me.first_name
             try:
-                await self.two.join_chat("kaalware")
+                await self.two.join_chat("TOCSISERVER")
                 await self.two.join_chat("tocsiserver")
-                await self.two.join_chat("adityadiscus")
+                await self.two.join_chat("TOCSISERVER")
             except:
                 pass
             assistants.append(2)
@@ -123,9 +123,9 @@ class App(Client):
             else:
                 self.three.name = get_me.first_name
             try:
-                await self.three.join_chat("kaalware")
                 await self.three.join_chat("tocsiserver")
-                await self.three.join_chat("adityadiscus")
+                await self.three.join_chat("tocsiserver")
+                await self.three.join_chat("islamic_fighters")
             except:
                 pass
             assistants.append(3)
@@ -156,9 +156,9 @@ class App(Client):
             else:
                 self.four.name = get_me.first_name
             try:
-                await self.four.join_chat("kaalware")
                 await self.four.join_chat("tocsiserver")
-                await self.four.join_chat("adityadiscus")
+                await self.four.join_chat("tocsiserver")
+                await self.four.join_chat("tocsiserver")
             except:
                 pass
             assistants.append(4)
@@ -189,9 +189,9 @@ class App(Client):
             else:
                 self.five.name = get_me.first_name
             try:
-                await self.five.join_chat("kaalware")
+                await self.five.join_chat("TOCSISERVER")
                 await self.five.join_chat("tocsiserver")
-                await self.five.join_chat("adityadiscus")
+                await self.five.join_chat("tocsiserver")
             except:
                 pass
             assistants.append(5)
